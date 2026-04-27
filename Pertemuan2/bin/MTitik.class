@@ -1,0 +1,47 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class MTitik {
+   public MTitik() {
+   }
+
+   public static void main(String[] args) {
+      System.out.println("=== DEMONSTRASI CLASS TITIK ===\n");
+      System.out.println("1. Titik dengan konstruktor default:");
+      Titik t1 = new Titik();
+      System.out.print("Titik t1: ");
+      t1.tampilkan();
+      System.out.println();
+      System.out.println("2. Titik dengan konstruktor parameter:");
+      Titik t2 = new Titik((double)3.5F, -2.7);
+      System.out.print("Titik t2: ");
+      t2.tampilkan();
+      System.out.println();
+      System.out.println("3. Test Getter dan Setter:");
+      System.out.print("Titik t2 awal: ");
+      t2.tampilkan();
+      t2.setX((double)5.0F);
+      t2.setY(4.2);
+      System.out.print("Titik t2 setelah diubah: ");
+      t2.tampilkan();
+      System.out.printf("X: %.2f, Y: %.2f\n", t2.getX(), t2.getY());
+      System.out.println();
+      System.out.println("4. Membuat beberapa titik:");
+      Titik[] titikArray = new Titik[]{new Titik((double)0.0F, (double)0.0F), new Titik((double)1.0F, (double)2.0F), new Titik((double)-3.0F, (double)4.0F), new Titik((double)2.5F, (double)-1.5F)};
+
+      for(int i = 0; i < titikArray.length; ++i) {
+         System.out.printf("Titik[%d]: ", i);
+         titikArray[i].tampilkan();
+      }
+
+      System.out.println();
+      System.out.println("5. Operasi dengan titik:");
+      Titik t3 = new Titik((double)1.0F, (double)1.0F);
+      Titik t4 = new Titik((double)4.0F, (double)5.0F);
+      System.out.print("Titik t3: ");
+      t3.tampilkan();
+      System.out.print("Titik t4: ");
+      t4.tampilkan();
+      double xTengah = (t3.getX() + t4.getX()) / (double)2.0F;
+      double yTengah = (t3.getY() + t4.getY()) / (double)2.0F;
+      System.out.printf("Titik tengah t3-t4: (%.2f, %.2f)\n", xTengah, yTengah);
+   }
+}
