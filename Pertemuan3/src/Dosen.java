@@ -1,7 +1,7 @@
 /* Nama File    : Dosen.java
  * Deskripsi    : berisi atribut dan method dalam class Dosen
  * Pembuat      : Nevlyn Abbel Fikri Ardho
- * Tanggal      : 27 Febiruari 2026
+ * Tanggal      : 5 Maret 2026
 */
 
 public class Dosen {
