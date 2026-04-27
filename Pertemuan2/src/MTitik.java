@@ -1,3 +1,9 @@
+/* Nama File    : MTitik.java
+ * Deskripsi    : berisi program utama untuk menggunakan class Titik
+ * Pembuat      : Nevlyn Abbel Fikri Ardho
+ * Tanggal      : 6 Maret 2026
+ */
+
 public class MTitik {
     public static void main(String[] args) {
         System.out.println("=== DEMONSTRASI CLASS TITIK ===\n");
