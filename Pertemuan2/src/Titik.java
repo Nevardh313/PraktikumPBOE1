@@ -1,7 +1,7 @@
 /* Nama File    : Titik.java
  * Deskripsi    : berisi program utama untuk menggunakan class Titik
  * Pembuat      : Nevlyn Abbel Fikri Ardho
- * Tanggal      : 6 Maret 2026
+ * Tanggal      : 27 Febuari 2026
  */
 
 public class Titik {
