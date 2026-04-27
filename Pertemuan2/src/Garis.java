@@ -1,3 +1,9 @@
+/* Nama File    : Garis.java
+ * Deskripsi    : berisi atribut dan method dalam class Titik
+ * Pembuat      : Nevlyn Abbel Fikri Ardho
+ * Tanggal      : 5 Maret 2026
+ */
+
 public class Garis {
     private Titik titikAwal;
     private Titik titikAkhir;
