@@ -1,3 +1,9 @@
+/* Nama File    : MGaris.java
+ * Deskripsi    : berisi program utama untuk menggunakan class Garis
+ * Pembuat      : Nevlyn Abbel Fikri Ardho
+ * Tanggal      : 6 Maret 2026
+ */
+
 public class MGaris {
     public static void main(String[] args) {
         System.out.println("=== DEMONSTRASI CLASS GARIS ===\n");
